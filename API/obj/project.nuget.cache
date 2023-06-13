@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mBVFq7Wx4ETpmA0CmFfPAF5VAQrSX6JyeCEU2I7BFyBI10Elskm6BTIMJNBasyBjHDlih2Gma1J+XO3+xKaTbw==",
+  "dgSpecHash": "eh8gZq4X7UkmeBwwHlpSeFwc3L2toJ5KXQoT/U9V7dJTmjeEcFR/Pmaib34ptZSL2DRis3Xs/70J3W3YE12D1w==",
   "success": true,
   "projectFilePath": "C:\\Users\\zadaghriri\\source\\repos\\AngularApp\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -83,7 +83,11 @@
     "C:\\Users\\zadaghriri\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\zadaghriri\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\zadaghriri\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.2\\microsoft.netcore.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.2\\microsoft.windowsdesktop.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.2\\microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.2\\microsoft.netcore.app.host.win-x64.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }
