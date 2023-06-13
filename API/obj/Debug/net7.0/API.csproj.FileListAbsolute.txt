@@ -15,7 +15,6 @@ C:\Users\zadaghriri\source\repos\AngularApp\API\bin\Debug\net7.0\API.pdb
 C:\Users\zadaghriri\source\repos\AngularApp\API\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\zadaghriri\source\repos\AngularApp\API\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\zadaghriri\source\repos\AngularApp\API\bin\Debug\net7.0\Humanizer.dll
-C:\Users\zadaghriri\source\repos\AngularApp\API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\zadaghriri\source\repos\AngularApp\API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\zadaghriri\source\repos\AngularApp\API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 C:\Users\zadaghriri\source\repos\AngularApp\API\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
