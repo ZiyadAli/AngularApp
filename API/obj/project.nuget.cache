@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eh8gZq4X7UkmeBwwHlpSeFwc3L2toJ5KXQoT/U9V7dJTmjeEcFR/Pmaib34ptZSL2DRis3Xs/70J3W3YE12D1w==",
+  "dgSpecHash": "uCYfh0DXz1DScD21jqSuaX2Gd1IbTxYV6rtK5TCTKsiyPq/5nJtxu+GdEDitK12cNtmumLB8oZEPgOJXIW4JnQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\zadaghriri\\source\\repos\\AngularApp\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -34,12 +34,12 @@
     "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.identity.client\\4.45.0\\microsoft.identity.client.4.45.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.19.3\\microsoft.identity.client.extensions.msal.2.19.3.nupkg.sha512",
-    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.21.0\\microsoft.identitymodel.abstractions.6.21.0.nupkg.sha512",
-    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.21.0\\microsoft.identitymodel.jsonwebtokens.6.21.0.nupkg.sha512",
-    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.identitymodel.logging\\6.21.0\\microsoft.identitymodel.logging.6.21.0.nupkg.sha512",
+    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.31.0\\microsoft.identitymodel.abstractions.6.31.0.nupkg.sha512",
+    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.31.0\\microsoft.identitymodel.jsonwebtokens.6.31.0.nupkg.sha512",
+    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.identitymodel.logging\\6.31.0\\microsoft.identitymodel.logging.6.31.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.21.0\\microsoft.identitymodel.protocols.6.21.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.21.0\\microsoft.identitymodel.protocols.openidconnect.6.21.0.nupkg.sha512",
-    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.21.0\\microsoft.identitymodel.tokens.6.21.0.nupkg.sha512",
+    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.31.0\\microsoft.identitymodel.tokens.6.31.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
@@ -62,7 +62,7 @@
     "C:\\Users\\zadaghriri\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
-    "C:\\Users\\zadaghriri\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.21.0\\system.identitymodel.tokens.jwt.6.21.0.nupkg.sha512",
+    "C:\\Users\\zadaghriri\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.31.0\\system.identitymodel.tokens.jwt.6.31.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
@@ -83,11 +83,7 @@
     "C:\\Users\\zadaghriri\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\zadaghriri\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\zadaghriri\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
-    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.2\\microsoft.netcore.app.ref.7.0.2.nupkg.sha512",
-    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.2\\microsoft.windowsdesktop.app.ref.7.0.2.nupkg.sha512",
-    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.2\\microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512",
-    "C:\\Users\\zadaghriri\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.2\\microsoft.netcore.app.host.win-x64.7.0.2.nupkg.sha512"
+    "C:\\Users\\zadaghriri\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
