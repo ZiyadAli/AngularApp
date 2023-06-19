@@ -11,7 +11,7 @@ namespace API.Services
     {
         private readonly SymmetricSecurityKey _key;
 
-        public TokenService(IConfiguration config) 
+        public TokenService(IConfiguration config)
         {
             _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["TokenKey"]));
         }
@@ -22,7 +22,7 @@ namespace API.Services
                 new Claim(JwtRegisteredClaimNames.NameId, user.UserName),
             };
 
-            var creds= new SigningCredentials(_key,SecurityAlgorithms.HmacSha512Signature);
+            var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha512Signature);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
@@ -31,7 +31,7 @@ namespace API.Services
             };
 
             var tokenHandler = new JwtSecurityTokenHandler();
-            var token =tokenHandler.CreateToken(tokenDescriptor);
+            var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
         }
     }

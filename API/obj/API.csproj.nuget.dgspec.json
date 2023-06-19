@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zadaghriri\\source\\repos\\AngularApp\\API\\API.csproj": {}
+    "C:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zadaghriri\\source\\repos\\AngularApp\\API\\API.csproj": {
+    "C:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zadaghriri\\source\\repos\\AngularApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\zadaghriri\\source\\repos\\AngularApp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\zadaghriri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zadaghriri\\source\\repos\\AngularApp\\API\\obj\\",
+        "projectPath": "C:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\zey_9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zadaghriri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zey_9\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
