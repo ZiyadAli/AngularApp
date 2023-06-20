@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj": {}
+    "C:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj": {
+    "C:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\zey_9\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zey_9\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,31 +47,31 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
