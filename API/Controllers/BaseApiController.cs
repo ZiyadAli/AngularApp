@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-  //  [ApiController]
+    [ApiController]
     [Route("api/[controller]")]
     public class BaseApiController : ControllerBase
     {

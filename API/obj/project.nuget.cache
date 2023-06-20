@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q0RIDk87kKGuSQhl7amMiAbkaUwNRXuk4FG1V4yvGWnbroIU6AyOhGrkjR2Bey1Brl81a4V1adPMvvbBSsrPUQ==",
+  "dgSpecHash": "52nMK+OvWBwfiMG9LjuC9ha3It+6nM01RxKqFDoiti1VZ48HhMvo4DFUMM03+acAoHZbEh15VM78MzlZvZUODw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj",
+  "projectFilePath": "c:\\Users\\zey_9\\source\\repos\\AngularApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zey_9\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\zey_9\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
