@@ -1,0 +1,12 @@
+<h4>Internal server error</h4>
+
+<ng-container *ngIf="error">
+    <h5 class="text-danger">Error : {{ error.Message }}</h5>
+    <p>Not: if you are seeing this is server error</p>
+    <ol>
+        <li class=""></li>
+    </ol>
+    <code class="mt-5" style="background-color: whitesmoke">
+    {{ error.Details}}
+  </code>
+</ng-container>
