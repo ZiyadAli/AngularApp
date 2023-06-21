@@ -206,3 +206,4 @@ C:\Users\zey_9\source\repos\AngularApp\API\obj\Debug\net7.0\API.genruntimeconfig
 C:\Users\zey_9\source\repos\AngularApp\API\obj\Debug\net7.0\ref\API.dll
 C:\Users\zey_9\source\repos\AngularApp\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\zey_9\source\repos\AngularApp\API\bin\Debug\net7.0\libman.json
+C:\Users\zey_9\source\repos\AngularApp\API\bin\Debug\net7.0\Data\UserSeedData.json

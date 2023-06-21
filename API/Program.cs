@@ -1,5 +1,7 @@
+using API.Data;
 using API.Extensions;
 using API.Middleware;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,5 +25,21 @@ app.UseCors(builder => builder.AllowAnyHeader()
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
+using var scop = app.Services.CreateScope();
+var services = scop.ServiceProvider;
+try
+{
+    var context = services.GetRequiredService<DataContext>();
+    await context.Database.MigrateAsync();
+    await Seed.SeedUser(context);
+
+}
+catch (Exception ex)
+{
+    var logger = services.GetService<Logger<Program>>();
+    logger.LogError(ex,"Error in seed");
+
+}
 
 app.Run();

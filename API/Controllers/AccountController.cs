@@ -6,9 +6,11 @@ using Microsoft.EntityFrameworkCore;
 using System.Text;
 using API.Interfaces;
 using System.Security.Cryptography;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
+    [Authorize]
     public class AccountController : BaseApiController
     {
         private readonly DataContext _context;
@@ -35,17 +37,18 @@ namespace API.Controllers
             };
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
-            return new UserDto(){
+            return new UserDto()
+            {
                 Username = user.UserName,
                 Token = _tokenService.CreateToke(user)
             };
         }
 
-
+        [AllowAnonymous]
         [HttpPost("login")] // POST: api/account/login/username
         public async Task<ActionResult<UserDto>> Login(LoginDto LoginDto)
         {
-            var user = await _context.Users.SingleOrDefaultAsync(x => x.UserName == LoginDto.Username.ToLower());
+            var user = await _context.Users.SingleOrDefaultAsync(x => x.UserName.ToLower() == LoginDto.Username.ToLower());
             if (user == null) return Unauthorized();
             using var hmac = new HMACSHA512(user.PasswordSalt);
             var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(LoginDto.Password));
@@ -53,7 +56,8 @@ namespace API.Controllers
             for (int i = 0; i < computedHash.Length; i++)
                 if (computedHash[i] != user.PasswordHash[i])
                     return Unauthorized("Infalid Password");
-            return new UserDto(){
+            return new UserDto()
+            {
                 Username = user.UserName,
                 Token = _tokenService.CreateToke(user)
             };
