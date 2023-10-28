@@ -209,3 +209,5 @@ C:\Users\zey_9\source\repos\AngularApp\API\bin\Debug\net7.0\libman.json
 C:\Users\zey_9\source\repos\AngularApp\API\bin\Debug\net7.0\Data\UserSeedData.json
 C:\Users\zey_9\source\repos\AngularApp\API\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\zey_9\source\repos\AngularApp\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\zey_9\source\repos\AngularApp\API\bin\Debug\net7.0\CloudinaryDotNet.dll
+C:\Users\zey_9\source\repos\AngularApp\API\bin\Debug\net7.0\Newtonsoft.Json.dll
